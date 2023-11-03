@@ -18,7 +18,7 @@ const title = "Rumblur"
 const description = "Ламповый сервер Minecraft."
 
 const env = loadEnv("", process.cwd())
-const hostname: string = env.VITE_HOSTNAME || "http://86.57.183.214:4173"
+const hostname: string = env.VITE_HOSTNAME || "https://rumblur.by"
 
 export default defineConfig({
 	outDir: "../dist",

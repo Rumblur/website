@@ -5,7 +5,7 @@ import sidebar from "./navigation/sidebar"
 
 const themeConfig: DefaultTheme.Config = {
 	logo: {
-		src: "/heart.webp",
+		src: "/img/heart.webp",
 		width: 24,
 		height: 24,
 	},
@@ -44,11 +44,6 @@ const themeConfig: DefaultTheme.Config = {
 			ariaLabel: "VK Group"
 		}
 	],
-
-	editLink: {
-		pattern: 'https://github.com/rumblur/website/edit/main/website/:path',
-		text: 'Предложить изменения на этой странице',
-	},
 
 	lastUpdated: {
 		text: 'Последнее обновление',

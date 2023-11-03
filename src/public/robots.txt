@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://rumblur.by/sitemap.xml

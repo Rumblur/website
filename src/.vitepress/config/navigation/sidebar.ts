@@ -3,6 +3,7 @@ import type { DefaultTheme } from "vitepress"
 const sidebar: DefaultTheme.SidebarMulti = {
 	"/faq/": defaultSidebar(),
     "/misc/": defaultSidebar(),
+    "/news/": defaultSidebar(),
 }
 
 function defaultSidebar(): DefaultTheme.SidebarItem[] {
@@ -12,19 +13,15 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
 			items: [
 				{
 					text: "Что такое Rumblur?",
-					link: "/faq/getting-started",
-				},
-                {
-					text: "Моды",
-					link: "/faq/mods",
+					link: "/faq/getting-started/",
 				},
                 {
 					text: "Генерация мира",
-					link: "/faq/world-generation",
+					link: "/faq/world-generation/",
 				},
 				{
 					text: "Техническая информация",
-					link: "/faq/tech-info",
+					link: "/faq/tech-info/",
 				},
 			],
 		},
@@ -33,7 +30,7 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
 			items: [
 				{
 					text: "Доска почёта",
-					link: "/misc/hall-of-fame",
+					link: "/misc/hall-of-fame/",
 				},
 			],
 		},
