@@ -10,7 +10,7 @@ async function generateFeed(config: SiteConfig, hostname: string) {
 		id: hostname,
 		link: hostname,
 		language: "ru",
-		image: `${hostname}/img/logo.png`,
+		image: `${hostname}/img/heart.webp`,
 		favicon: `${hostname}/favicon.ico`,
 		copyright: `Copyright © 2020 - ${new Date().getFullYear()} Rumblur Classic Team`,
 	})
@@ -34,6 +34,7 @@ async function generateFeed(config: SiteConfig, hostname: string) {
 		const content = (html ?? "")
 			.replace(/&ZeroWidthSpace;/g, "")
 			.replace(/<a href="(\/.*?)">/g, `<a href="${hostname}$1">`)
+			.replace(/<img src="(\/.*?)">/g, `<img src="${hostname}$1">`)
 
 		const markdown = (src ?? "")
 			.replace(/^---.*---/s, "")

@@ -13,6 +13,7 @@ import headConfig from "./config/headConfig" // Provides how to generate Meta he
 
 import generateFeed from "./config/hooks/generateFeed" // Allows generation of RSS feed
 import generateMeta from "./config/hooks/generateMeta"
+import generateOgImages from "./config/hooks/generateOgImages"
 
 const title = "Rumblur"
 const description = "Ламповый сервер Minecraft."
@@ -35,6 +36,7 @@ export default defineConfig({
 	transformHead: async (context) => generateMeta(context, hostname),
 	buildEnd: async (context) => {
 		generateFeed(context, hostname)
+		generateOgImages(context)
 	},
 	vite: {
 		resolve: {
