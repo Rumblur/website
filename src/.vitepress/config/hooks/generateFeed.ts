@@ -12,7 +12,7 @@ async function generateFeed(config: SiteConfig, hostname: string) {
 		language: "ru",
 		image: `${hostname}/img/heart.webp`,
 		favicon: `${hostname}/favicon.ico`,
-		copyright: `Copyright © 2020 - ${new Date().getFullYear()} Rumblur Classic Team`,
+		copyright: `Copyright © 2020 - ${new Date().getFullYear()} Rumblur Team`,
 	})
 	const json: Item[] = []
 

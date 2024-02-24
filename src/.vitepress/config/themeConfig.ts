@@ -57,8 +57,28 @@ const themeConfig: DefaultTheme.Config = {
 	search: {
 		provider: 'local',
 		options: {
-			
-		}
+			detailedView: true,
+			translations: {
+			  button: {
+				buttonText: 'Поиск',
+				buttonAriaLabel: 'Поиск'
+			  },
+			  modal: {
+				displayDetails: 'Показать детальный список',
+				noResultsText: 'Ничего не найден',
+				resetButtonTitle: 'Сбросить поиск',
+				footer: {
+				  selectText: 'для выбора',
+				  selectKeyAriaLabel: 'enter',
+				  navigateText: 'для навигации',
+				  navigateUpKeyAriaLabel: 'стрелка вверх',
+				  navigateDownKeyAriaLabel: 'стрелка вниз',
+				  closeText: 'закрыть',
+				  closeKeyAriaLabel: 'escape',
+				},
+			  },
+			},
+		  },
 	},
 
 	docFooter: {
@@ -68,7 +88,7 @@ const themeConfig: DefaultTheme.Config = {
 
 	footer: {
 		message: 'Содержание и материалы Minecraft являются товарными знаками и объектами авторского права компании Mojang AB. Все права защищены. Rumblur не связан с Mojang AB.',
-		copyright: `Copyright © 2020 - ${new Date().getFullYear()} Rumblur Classic Team`,
+		copyright: `Copyright © 2020 - ${new Date().getFullYear()} Rumblur Team`,
 	},
 }
 

@@ -12,9 +12,9 @@ const nav: DefaultTheme.NavItem[] = [
 		activeMatch: "/news/",
 	},
 	{
-		text: "Поддержать проект",
-		link: "/donate/",
-		activeMatch: "/donate/",
+		text: "Правила",
+		link: "/rules/",
+		activeMatch: "/rules/",
 	},
 	{
 		text: "Карта",
