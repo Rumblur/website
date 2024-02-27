@@ -40,7 +40,7 @@ const members = [
     title: 'Основатель',
   },
   {
-    avatar: 'https://crafthead.net/avatar/ac98aee2f60a4bd897e57717def8ed08',
+    avatar: 'https://crafthead.net/avatar/Mamimi',
     name: 'Xtimms',
     title: 'Сисадмин, владелец физсервера',
   },
@@ -50,8 +50,8 @@ const members = [
     title: 'Сисадмин',
   },
   {
-    avatar: 'https://crafthead.net/avatar/3315d7c302ca4188bb46aeeb998f4d1d',
-    name: 'Watewind',
+    avatar: 'https://crafthead.net/avatar/NobleAshy',
+    name: 'NobleAshy',
     title: 'Строитель',
   },
   {
