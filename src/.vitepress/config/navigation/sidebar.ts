@@ -15,13 +15,26 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
 					text: "Что такое Rumblur?",
 					link: "/faq/getting-started/",
 				},
-                {
+				{
+					text: "Техническая информация",
+					link: "/faq/tech-info/",
+				},
+			],
+		},
+		{
+			text: "Фишки сервера",
+			items: [
+				{
 					text: "Генерация мира",
 					link: "/faq/world-generation/",
 				},
 				{
-					text: "Техническая информация",
-					link: "/faq/tech-info/",
+					text: "Куча достижений",
+					link: "/faq/advancements/",
+				},
+				{
+					text: "Ресурспак",
+					link: "/faq/resourcepack/",
 				},
 			],
 		},
