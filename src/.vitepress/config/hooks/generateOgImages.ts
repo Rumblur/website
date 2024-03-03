@@ -81,11 +81,11 @@ async function generateImage({ page, template, outDir, fonts }: GenerateImagesOp
 		props: {
 			title:
 				frontmatter.layout === "home"
-				  ? frontmatter.hero.name ?? frontmatter.title
+				  ? frontmatter.main.name ?? frontmatter.title
 				  : frontmatter.customMetaTitle ?? frontmatter.title,
 			description:
 				frontmatter.layout === "home"
-				  ? frontmatter.hero.tagline ?? frontmatter.description
+				  ? frontmatter.main.tagline ?? frontmatter.description
 				  : frontmatter.description,
 			dir: getDir(url),
 		},
