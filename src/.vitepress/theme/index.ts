@@ -11,13 +11,13 @@ import { VueQueryPlugin } from "@tanstack/vue-query"
 
 import { enhanceAppWithTabs } from "vitepress-plugin-tabs/client"
 
-import Layout from "./Layout.vue"
+import Layout from './components/Layout.vue'
 
 export default {
 	extends: DefaultTheme,
+	Layout: Layout,
 	enhanceApp({ app }) {
 		app.use(VueQueryPlugin)
 		enhanceAppWithTabs(app)
 	},
-	Layout,
 }

@@ -9,15 +9,23 @@ const sidebar: DefaultTheme.SidebarMulti = {
 function defaultSidebar(): DefaultTheme.SidebarItem[] {
 	return [
 		{
-			text: "Описание",
+			text: "Информация",
 			items: [
 				{
 					text: "Что такое Rumblur?",
+					link: "/faq/about-rumblur/",
+				},
+				{
+					text: "Частые вопросы",
+					link: "/faq/",
+				},
+				{
+					text: "Гайд для новичков",
 					link: "/faq/getting-started/",
 				},
 				{
-					text: "Техническая информация",
-					link: "/faq/tech-info/",
+					text: "Для контентмейкеров",
+					link: "/faq/content-makers/",
 				},
 			],
 		},
@@ -32,18 +40,26 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
 					text: "Куча достижений",
 					link: "/faq/advancements/",
 				},
-				{
+				/* {
 					text: "Ресурспак",
 					link: "/faq/resourcepack/",
-				},
+				}, */
 			],
 		},
         {
 			text: "Остальное",
 			items: [
 				{
+					text: "Администрация",
+					link: "/misc/administration/",
+				},
+				{
 					text: "Доска почёта",
 					link: "/misc/hall-of-fame/",
+				},
+				{
+					text: "Награды",
+					link: "/misc/rewards/",
 				},
 			],
 		},

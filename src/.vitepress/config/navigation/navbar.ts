@@ -17,6 +17,10 @@ const nav: DefaultTheme.NavItem[] = [
 		activeMatch: "/rules/",
 	},
 	{
+		text: "Донат",
+		link: "https://shop.rumblur.by"
+	},
+	{
 		text: "Карта",
 		link: "https://maps.rumblur.by",
 	},

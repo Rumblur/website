@@ -2,19 +2,17 @@
 title: Главная
 layout: home
 
-hero:
-  name: Rumblur
+main:
+  title: Rumblur
   text: Ламповый сервер Minecraft
   tagline: Отправьтесь в путешествие по неизведанному ванильному миру Minecraft.
   image:
     alt: Rumblur
-    src: /img/icon.webp
+    light: /img/icon.webp
+    dark: /img/icon.webp
   actions:
     - theme: brand
       text: "IP сервера: rumblur.by"
-
-customMetaTitle: Rumblur
-
 features:
   - title: Улучшенная генерация мира
     details: Сервер использует генерацию, отличную от ванильной, но очень близкой к ней, где будут встречаться различные интересные структуры и биомы!

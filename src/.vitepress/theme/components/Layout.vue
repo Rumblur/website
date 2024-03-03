@@ -1,7 +1,11 @@
 <script setup lang="ts">
 import { useData } from "vitepress"
-import DefaultTheme from "vitepress/theme"
 import { nextTick, provide } from "vue"
+import DefaultTheme from 'vitepress/theme-without-fonts'
+
+import Home from './Home.vue'
+
+const { Layout } = DefaultTheme
 
 const { isDark } = useData()
 
@@ -42,7 +46,11 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
 </script>
 
 <template>
-	<DefaultTheme.Layout />
+  <Layout>
+    <template #home-hero-before>
+      <Home />
+    </template>
+  </Layout>
 </template>
 
 <style lang="stylus">

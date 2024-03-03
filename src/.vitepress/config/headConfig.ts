@@ -1,6 +1,8 @@
 import type { HeadConfig } from "vitepress"
 
 const headConfig: HeadConfig[] = [
+	["script", {async: "", src: "https://api.trademc.org/trademcapi.js"}],
+	["script", {}, `TrademcAPI.GetOnline({"Shop":"132616","TextMask":"Онлайн: {players} из {max_players}. Версия {version}","UIColor":"#333333","PastPlaceID":"trademc-online"});`],
 	["meta", { name: "darkreader-lock" }],
 
 	["meta", { name: "theme-color", content: "#ff8916" }],
