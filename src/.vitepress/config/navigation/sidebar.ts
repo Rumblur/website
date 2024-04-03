@@ -49,10 +49,10 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
         {
 			text: "Остальное",
 			items: [
-				{
+				/* {
 					text: "Администрация",
 					link: "/misc/administration/",
-				},
+				}, */
 				{
 					text: "Доска почёта",
 					link: "/misc/hall-of-fame/",
